@@ -1,0 +1,39 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <% include ../pages/head %>
+</head>
+
+
+<body class="container">
+    <% include ../pages/background %>
+
+        <header>
+            <% include ../pages/header %>
+        </header>
+
+        <main class="main-container">
+            <div class="optimus">
+                <h1>63 - Hanau</h1>
+                <video id="video" controls="false" src="/resources/video/1.mp4"></video>
+                <canvas id="canvas"> </canvas>
+            </div>
+            <div class="optimus">
+                <h1>News</h1>
+                <p>Das Jahr 2018 hat begonnen und 450er ebenfalls.</br> Schaut selbst und erfreut euch an der Next-Generation.</p>
+                <p><img src="/resources/images/events/1.jpeg" alt="hosted by mo frisch" style="height: 500px"></p>
+            </div>
+
+
+        </main>
+
+        <footer>
+            <% include ../pages/footer %>
+        </footer>
+
+</body>
+
+</html>
